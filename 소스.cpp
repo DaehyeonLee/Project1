@@ -14,6 +14,7 @@ void show_glfw_error(int error, const char* description);
 
 int main()
 {
+	std::cout << "hello" << std::endl;
 	glfwSetErrorCallback(show_glfw_error);
 
 
